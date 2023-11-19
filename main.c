@@ -36,7 +36,15 @@ int main() {
 
     printf("Socket bound to port 8080\n");
 
-    // Further steps like listen(), accept() go here...
+    // Listening for incoming connections
+    if (listen(server_fd, 3) < 0) {
+        perror("listen");
+        exit(EXIT_FAILURE);
+    }
+
+    printf("Listening on port 8080\n");
+
+    // Steps to accept connections go here...
 
     return 0;
 }
