@@ -1,0 +1,3 @@
+/Users/consultant/CLionProjects/BasicServer/cmake-build-debug/CMakeFiles/BasicServer.dir
+/Users/consultant/CLionProjects/BasicServer/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/consultant/CLionProjects/BasicServer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
